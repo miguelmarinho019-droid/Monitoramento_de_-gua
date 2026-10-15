@@ -1,0 +1,4 @@
+# Monitoramento de reservatório de água ! 💦💧📤
+Esse sistema funciona da seguinte forma: uma lista é criada com os níveis de água disponíveis no reservatório, logo após um valor entre 100 e 1000 é gerado pela biblioteca Random, dependendo deste valor, a função de cálculo de nível irá guardar o nível específico com base na capacidade disponível.
+Tendo esse valor guardado na função cálculo_de_nível(), outra função é criada para demonstrar uma mensagem com uma cor específica dependendo do nível. As mensagens sofrem alterações de cores através da biblioteca Cororama que tem a capacidade de colocar cores nas mensagens e resetar elas após o uso.
+É um sistema simples com valores aleatórios que podem ser redefinidos em random.randint(100,1000) ou se caso preferir, criar um sistema que pergunte ao usuário e ele executa de acordo com as informações inseridas.
